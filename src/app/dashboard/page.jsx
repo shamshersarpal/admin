@@ -72,7 +72,7 @@ return(
                            </h2>
                         </div>
                         <label htmlFor="table-search" className="sr-only">
-                        Search
+                        Search     
                         </label>
                         <div className="relative">
                            <div className="absolute inset-y-0 left-0 rtl:inset-r-0 rtl:right-0 flex items-center ps-3 pointer-events-none">
