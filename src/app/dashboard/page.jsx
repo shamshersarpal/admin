@@ -10,7 +10,7 @@ description: "Admin panel dashboard",
 
 export default function dashboard(){
 return(
-<>
+<>                
 <>
 <section className="">
    <SideBar/>
