@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "apexcharts": "^3.54.1",
     "chart.js": "^4.4.7",
     "next": "15.1.6",
     "react": "^19.0.0",
