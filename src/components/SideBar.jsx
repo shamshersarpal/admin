@@ -533,7 +533,7 @@ export default function SideBar() {
         <div className="h-full px-3 pb-4 overflow-y-auto bg-gray-700 dark:bg-gray-800">
           <ul className="space-y-2 font-medium">
             <li>
-              <a href="#" className="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-gray-100 hover:text-gray-700 dark:hover:bg-gray-700 group">
+              <a href="#" className="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-gray-100 hover:text-gray-700 dark:hover:bg-gray-700 group font-[400]">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 22 21">
                   <path d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z" />
                   <path d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z" />
@@ -546,7 +546,7 @@ export default function SideBar() {
             <li>
               <button
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                className="flex items-center w-full p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700"
+                className=" font-[400] flex items-center w-full p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700"
               > <span>
                   <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M8 3a3 3 0 0 0-1 5.83v6.34a3.001 3.001 0 1 0 2 0V15a2 2 0 0 1 2-2h1a5.002 5.002 0 0 0 4.927-4.146A3.001 3.001 0 0 0 16 3a3 3 0 0 0-1.105 5.79A3.001 3.001 0 0 1 12 11h-1c-.729 0-1.412.195-2 .535V8.83A3.001 3.001 0 0 0 8 3Z" />
@@ -562,10 +562,10 @@ export default function SideBar() {
               {isDropdownOpen && (
                 <ul className="py-2 space-y-2">
                   <li>
-                    <a href="#" className="block px-4 py-2 text-white dark:text-white rounded-lg hover:bg-white hover:text-gray-700">Table One</a>
+                    <a href="#" className="font-[400] block px-4 py-2 text-white dark:text-white rounded-lg hover:bg-white hover:text-gray-700">Table One</a>
                   </li>
                   <li>
-                    <a href="#" className="block px-4 py-2 text-white dark:text-white rounded-lg hover:bg-white hover:text-gray-700">Table Two</a>
+                    <a href="#" className="font-[400] block px-4 py-2 text-white dark:text-white rounded-lg hover:bg-white hover:text-gray-700">Table Two</a>
                   </li>
                 </ul>
               )}
@@ -576,7 +576,7 @@ export default function SideBar() {
               <li>
                 <a
                   href="#"
-                  className="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700 group"
+                  className="font-[400] flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700 group"
                 >
                   <svg
                     className="shrink-0 w-5 h-5   transition duration-75  "
@@ -596,7 +596,7 @@ export default function SideBar() {
               <li>
                 <a
                   href="#"
-                  className="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700 group"
+                  className="font-[400] flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700 group"
                 >
                   <svg
                     className="shrink-0 w-5 h-5   transition duration-75  "
@@ -616,7 +616,7 @@ export default function SideBar() {
               <li>
                 <a
                   href="#"
-                  className="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700 group"
+                  className="font-[400] flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700 group"
                 >
                   <svg
                     className="shrink-0 w-5 h-5   transition duration-75  "
@@ -633,7 +633,7 @@ export default function SideBar() {
               <li>
                 <a
                   href="#"
-                  className="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700 group"
+                  className="font-[400] flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700 group"
                 >
                   <svg
                     className="shrink-0 w-5 h-5   transition duration-75  "
@@ -650,7 +650,7 @@ export default function SideBar() {
               <li>
                 <a
                   href="#"
-                  className="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700 group"
+                  className="font-[400] flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700 group"
                 >
                   <svg
                     className="shrink-0 w-5 h-5  transition duration-75  "
@@ -673,7 +673,7 @@ export default function SideBar() {
               <li>
                 <a
                   href="#"
-                  className="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700 group"
+                  className="font-[400] flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-white hover:text-gray-700 dark:hover:bg-gray-700 group"
                 >
                   <svg
                     className="shrink-0 w-5 h-5  transition duration-75 "
